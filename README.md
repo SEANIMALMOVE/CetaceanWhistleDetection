@@ -19,10 +19,13 @@
 - **BirdNET Cetaceans + SEANIMALMOVE** Entrenar nuestro BirdNET para cetáceos del dataset WMMSD con nuestros propios datos – debería ser lo que mejor funcione
 
 ## Species of Interest
-Cachalote – Sperm Whale - Physeter microcephalus
-Rorcual común – Fin Whale - Balaenoptera physalus
-Calderón común – Pilot Whale – Globicephala melas
-Delfín Común – Common Dolphin - Delphinus delphis
-Delfín listado - Striped dolphin - Stenella coeruleoalba
-Delfín mular - Common bottlenose dolphin - Tursiops truncatus
-Orca – Killer Whale - Orcinus orca
+
+- Cachalote / Sperm Whale (*Physeter microcephalus*)
+- Rorcual común / Fin Whale (*Balaenoptera physalus*)
+- Calderón común / Pilot Whale (*Globicephala melas*)
+- Delfín Común / Common Dolphin (*Delphinus delphis*)
+- Delfín listado / Striped Dolphin (*Stenella coeruleoalba*)
+- Delfín mular / Common bottlenose dolphin (*Tursiops truncatus*)
+- Orca / Killer Whale (*Orcinus orca*)
+- Rorcual aliblanco / Minke Whale (*Balaenoptera acutorostrata*)
+- Yubarta ó Ballena jorobada / Humpback Whale (*Megaptera novaeangliae*)
