@@ -163,3 +163,43 @@ cython_debug/
 
 
 *:Zone.Identifier
+
+# large files from GrunCrow
+
+./.git/objects/pack/pack-6ed76782e900f38358f7890fd499d2b224662ed3.pack
+./.git/objects/pack/pack-ba3f8c88f63ea99956c63467bda7e63819d61773.pack
+./.git/objects/pack/pack-6e70e1783e9c5ae62828bb5b02fc41af80f1dfb4.pack
+./.git/objects/pack/pack-83c9644b57da6e22320a4b5bd240ec2c5032299e.pack
+./.git/objects/pack/pack-d9c555f9e1bbe7fc8de79a2b30d5023c87c79401.pack
+./.git/objects/pack/pack-63580f08d70752bf9d6300ff6376458f5899e97d.pack
+./Watkins Marine Mammals/ClymeneDolphin/8303504B.wav
+./Watkins Marine Mammals/Short_Finned(Pacific)PilotWhale/8401600B.wav
+./Watkins Marine Mammals/BottlenoseDolphin/90033001.wav
+./Watkins Marine Mammals/CommonDolphin/5801302Y.wav
+./Watkins Marine Mammals/SpermWhale/7200900P.wav
+./Watkins Marine Mammals/SpermWhale/9004600Q.wav
+./Watkins Marine Mammals/SpermWhale/90011001.wav
+./Watkins Marine Mammals/SpermWhale/90011002.wav
+./Watkins Marine Mammals/SpermWhale/9000700B.wav
+./Watkins Marine Mammals/SpermWhale/90033001.wav
+./Watkins Marine Mammals/SpermWhale/90043001.wav
+./Watkins Marine Mammals/SpermWhale/9400500C.wav
+./Watkins Marine Mammals/SpermWhale/8401600B.wav
+./Watkins Marine Mammals/SpermWhale/90009006.wav
+./Watkins Marine Mammals/SpermWhale/9000800B.wav
+./Watkins Marine Mammals/SpermWhale/90011005.wav
+./Watkins Marine Mammals/SpermWhale/90009001.wav
+./Watkins Marine Mammals/SpermWhale/90010001.wav
+./Watkins Marine Mammals/SpermWhale/9004600V.wav
+./Watkins Marine Mammals/SpermWhale/95001001.wav
+./Watkins Marine Mammals/SpermWhale/9500100Q.wav
+./Watkins Marine Mammals/SpermWhale/90011004.wav
+./Watkins Marine Mammals/SpermWhale/9500100L.wav
+./Watkins Marine Mammals/SpermWhale/9500100B.wav
+./Watkins Marine Mammals/SpermWhale/9500100G.wav
+./Watkins Marine Mammals/SpermWhale/90011003.wav
+./Watkins Marine Mammals/SpinnerDolphin/7100401S.wav
+./Watkins Marine Mammals/SpinnerDolphin/7100401R.wav
+./Watkins Marine Mammals/SpinnerDolphin/7100401T.wav
+./Watkins Marine Mammals/PantropicalSpottedDolphin/6400504G.wav
+./Watkins Marine Mammals/PantropicalSpottedDolphin/6400504D.wav
