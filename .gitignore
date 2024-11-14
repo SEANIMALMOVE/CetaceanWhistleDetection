@@ -172,3 +172,8 @@ cython_debug/
 ./.git/objects/pack/pack-83c9644b57da6e22320a4b5bd240ec2c5032299e.pack
 ./.git/objects/pack/pack-d9c555f9e1bbe7fc8de79a2b30d5023c87c79401.pack
 ./.git/objects/pack/pack-63580f08d70752bf9d6300ff6376458f5899e97d.pack
+
+/Dataset/CSVs/Unificados.xlsx
+/Dataset/CSVs/Unificados.csv
+/Dataset/Audios/Watkins Marine Mammals
+/Dataset/Audios/Full
