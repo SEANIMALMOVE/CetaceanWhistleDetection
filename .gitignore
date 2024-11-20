@@ -176,4 +176,7 @@ cython_debug/
 /Dataset/CSVs/Unificados.xlsx
 /Dataset/CSVs/Unificados.csv
 /Dataset/Audios/Watkins Marine Mammals
+/Dataset/Audios/Watkins Marine Mammals Original
 /Dataset/Audios/Full
+/private_credentials.py
+/DeepLearning/BirdNET/private_credentials.py
