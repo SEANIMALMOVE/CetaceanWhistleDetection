@@ -44,3 +44,20 @@ CLASSES_MAPPING = {
     'White_beakedDolphin': 42,
     'White_sidedDolphin': 43
 }
+
+CLASSES_MAPPING_REDUCED = {
+    'Background': 0,
+    'BottlenoseDolphin': 1,
+    'BowheadWhale': 2,
+    'CommonDolphin': 3,
+    'Fin_FinbackWhale': 4,
+    "Grampus_Risso'sDolphin": 5,
+    'HarborPorpoise': 6,
+    'HumpbackWhale': 7,
+    'KillerWhale': 8,
+    'Long_FinnedPilotWhale': 9,
+    'MinkeWhale': 10,
+    'Rough_ToothedDolphin': 11,
+    'SpermWhale': 12,
+    'StripedDolphin': 13
+}

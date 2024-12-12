@@ -180,3 +180,10 @@ cython_debug/
 /Dataset/Audios/Full
 /private_credentials.py
 /DeepLearning/BirdNET/private_credentials.py
+
+# wav files
+*.wav
+*.WAV
+
+# Big files of DL
+DeepLearning/BirdNET/Models/*
