@@ -61,3 +61,20 @@ CLASSES_MAPPING_REDUCED = {
     'SpermWhale': 12,
     'StripedDolphin': 13
 }
+
+CLASSES_MAPPING_REDUCED_REAL = {
+    'Background': 0,
+    'BottlenoseDolphin': 1,
+    # 'BowheadWhale': 2,
+    'CommonDolphin': 2,
+    'Fin_FinbackWhale': 3,
+    "Grampus_Risso'sDolphin": 4,
+    'HarborPorpoise': 5,
+    'HumpbackWhale': 6,
+    'KillerWhale': 7,
+    'Long_FinnedPilotWhale': 8,
+    'MinkeWhale': 9,
+    # 'Rough_ToothedDolphin': 11,
+    'SpermWhale': 10,
+    'StripedDolphin': 11
+}
