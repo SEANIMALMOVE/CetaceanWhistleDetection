@@ -6,6 +6,8 @@ import argparse
 import time
 import tensorflow as tf
 
+# sudo mount -t drvfs E: /mnt/e
+
 # python DeepLearning/BirdNET/b01_InfereModel.py --audio_path ../../../mnt/e/Seanimalmove/WOPAM\ DAY\ 2024/ --output_folder ../../../mnt/e/Seanimalmove/WOPAM_Inference/
 
 # python DeepLearning/BirdNET/b01_InfereModel.py --audio_path ../../../mnt/e/SEANIMALMOVE/SYLENCE\ TARIFA\ 3_1min/  --output_folder ../../../mnt/e/SEANIMALMOVE/Predictions/
@@ -24,6 +26,17 @@ CLASSES_MAPPING = {
     'MinkeWhale': 9,
     'SpermWhale': 10,
     'StripedDolphin': 11
+}
+
+CLASSES_MAPPING = {
+    'Background': 0,
+    'BottlenoseDolphin': 1,
+    'CommonDolphin': 2,
+    "Grampus_Risso'sDolphin": 3,
+    'HarborPorpoise': 4,
+    'KillerWhale': 5,
+    'Long_FinnedPilotWhale': 6,
+    'StripedDolphin': 7
 }
 
 INV_CLASSES_MAPPING = {v: k for k, v in CLASSES_MAPPING.items()}
@@ -52,7 +65,9 @@ class AudioDataset:
         return file
 
 def load_model_keras():
-    model_path = "DeepLearning/BirdNET/Models/16_MarineMammals_NewDSGenerator"
+    # model_path = "DeepLearning/BirdNET/Models/18_MarineMammals_NewBGManagement" 
+    # model_path = "DeepLearning/BirdNET/Models/20_MarineMammalsDelphinidae"
+    model_path = "DeepLearning/BirdNET/Models/22_MarineMammalsDelphinidae_BetterCutsCIRCE"
     # model_path = "DeepLearning/BirdNET/Models/14_MarineMammals"
     model = tf.keras.models.load_model(model_path)
     return model
@@ -108,45 +123,59 @@ def process_audio_files(audio_path, output_folder):
     total_inference_time = 0
     total_audio_duration = 0
 
-    for file in dataset:
-        print(f"Processing {file}")
+    # Check already existing files in output folder
+    existing_files = [f for f in os.listdir(output_folder) if f.endswith('.csv')]
 
-        start_preprocess = time.time()
-        segments = process_audio_segments(file)
-        end_preprocess = time.time()
-        preprocess_time = end_preprocess - start_preprocess
-        total_preprocess_time += preprocess_time
+    # Create df for each file already processed
+    df_combined = pd.DataFrame()
+    for f in existing_files:
+        df = pd.read_csv(os.path.join(output_folder, f))
+        df_combined = pd.concat([df_combined, df])
+        print(f"Loaded {f} already processed files with {len(df)} rows")
 
-        start_inference = time.time()
-        for original_file, segment, start_s, end_s in segments:
-            top_class, probabilities = classify_audio(model, segment)
+    for i, file in enumerate(dataset):
+        if os.path.basename(file).replace(".wav", ".csv") not in existing_files:
+            print(f"Processing {file} ({i + 1}/{len(dataset)})")
 
-            result = {
-                "Path": original_file,
-                "Filename": os.path.basename(file),
-                "StartSecond": start_s,
-                "EndSecond": end_s,
-                "MainClassification": INV_CLASSES_MAPPING[top_class],
-                "ConfidenceScore": probabilities[top_class],
-                "ConfidenceVector": probabilities.tolist()
-            }
+            start_preprocess = time.time()
+            segments = process_audio_segments(file)
+            end_preprocess = time.time()
+            preprocess_time = end_preprocess - start_preprocess
+            total_preprocess_time += preprocess_time
 
-            all_results.append(result)
-        end_inference = time.time()
-        inference_time = end_inference - start_inference
-        total_inference_time += inference_time
+            start_inference = time.time()
+            for original_file, segment, start_s, end_s in segments:
+                top_class, probabilities = classify_audio(model, segment)
 
-        total_audio_duration += len(segments) * 3  # Assuming each segment is 3 seconds long
+                result = {
+                    "Path": original_file,
+                    "Filename": os.path.basename(file),
+                    "StartSecond": start_s,
+                    "EndSecond": end_s,
+                    "MainClassification": INV_CLASSES_MAPPING[top_class],
+                    "ConfidenceScore": probabilities[top_class],
+                    "ConfidenceVector": probabilities.tolist()
+                }
 
-        print(f"Time taken to preprocess {file}: {preprocess_time:.2f} seconds")
-        print(f"Time taken to infer {file}: {inference_time:.2f} seconds")
+                all_results.append(result)
+            end_inference = time.time()
+            inference_time = end_inference - start_inference
+            total_inference_time += inference_time
 
-        output_csv = os.path.join(output_folder, os.path.splitext(os.path.basename(file))[0] + ".csv")
-        df = pd.DataFrame([res for res in all_results if res["Filename"] == os.path.basename(file)])
-        df.to_csv(output_csv, index=False)
+            total_audio_duration += len(segments) * 3  # Assuming each segment is 3 seconds long
+
+            print(f"Time taken to preprocess {file}: {preprocess_time:.2f} seconds")
+            print(f"Time taken to infer {file}: {inference_time:.2f} seconds")
+
+            output_csv = os.path.join(output_folder, os.path.splitext(os.path.basename(file))[0] + ".csv")
+            df = pd.DataFrame([res for res in all_results if res["Filename"] == os.path.basename(file)])
+            df.to_csv(output_csv, index=False)
+
+    # Convert all_results to DataFrame before concatenating
+    df_all_results = pd.DataFrame(all_results)
+    df_combined = pd.concat([df_combined, df_all_results])
 
     combined_csv = os.path.join(output_folder, "predictions.csv")
-    df_combined = pd.DataFrame(all_results)
     df_combined.to_csv(combined_csv, index=False)
     
     print(f"Combined results saved to {combined_csv}")
@@ -166,6 +195,26 @@ def process_audio_files(audio_path, output_folder):
     print(f"Average time per file for inference: {avg_inference_time:.2f} seconds")
     print(f"Average time per file for preprocessing + inference: {avg_total_time:.2f} seconds")
 
+import os
+import pandas as pd
+
+def combine_csv_files(input_folder, output_file):
+    # List all CSV files in the input folder
+    csv_files = [f for f in os.listdir(input_folder) if f.endswith('.csv')]
+
+    # Initialize an empty DataFrame to hold the combined data
+    combined_df = pd.DataFrame()
+
+    # Loop through each CSV file and append its content to the combined DataFrame
+    for csv_file in csv_files:
+        file_path = os.path.join(input_folder, csv_file)
+        df = pd.read_csv(file_path)
+        combined_df = pd.concat([combined_df, df], ignore_index=True)
+
+    # Save the combined DataFrame to the output file
+    combined_df.to_csv(output_file, index=False)
+    print(f"Combined CSV saved to {output_file}")
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--audio_path", type=str, required=True, help="Path to audio file or folder containing audio files.")
@@ -174,3 +223,9 @@ if __name__ == "__main__":
 
     os.makedirs(args.output_folder, exist_ok=True)
     process_audio_files(args.audio_path, args.output_folder)
+
+
+# if __name__ == "__main__":
+#     input_folder = "../../../mnt/f/WOPAM DAY DL/"  # Replace with your input folder path
+#     output_file = "../../../mnt/f/WOPAM DAY DL/combined.csv"  # Replace with your output file path
+#     combine_csv_files(input_folder, output_file)

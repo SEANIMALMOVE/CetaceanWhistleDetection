@@ -1,0 +1,24 @@
+Idx,Specie,File,Validation,Suggested Specie
+1,CommonDolphin,channelA_2024-06-07_16-28-17_48kHz_199_206_0.34.WAV,-1,
+2,CommonDolphin,channelA_2024-06-08_01-05-49_48kHz_49_56_0.47.WAV,1,
+3,CommonDolphin,channelA_2024-06-08_10-02-04_48kHz_202_209_0.44.WAV,-1,
+4,CommonDolphin,channelA_2024-06-08_11-12-36_48kHz_178_185_0.34.WAV,-1,
+5,CommonDolphin,channelA_2024-06-08_11-17-36_48kHz_229_236_0.4.WAV,0,Human_diver
+6,CommonDolphin,channelA_2024-06-08_11-17-36_48kHz_247_254_0.38.WAV,0,Human_diver
+7,CommonDolphin,channelA_2024-06-08_15-34-48_48kHz_154_161_0.61.WAV,0,Human_diver
+8,CommonDolphin,channelA_2024-06-08_15-34-48_48kHz_157_164_0.31.WAV,0,Human_diver
+9,CommonDolphin,channelA_2024-06-08_15-34-48_48kHz_160_167_0.48.WAV,0,Human_diver
+10,CommonDolphin,channelA_2024-06-08_15-34-48_48kHz_166_173_0.35.WAV,0,Human_diver
+11,CommonDolphin,channelA_2024-06-08_15-34-48_48kHz_169_176_0.87.WAV,0,Human_diver
+12,CommonDolphin,channelA_2024-06-08_15-34-48_48kHz_172_179_0.59.WAV,0,Human_diver
+13,CommonDolphin,channelA_2024-06-08_15-34-48_48kHz_175_182_0.36.WAV,0,Human_diver
+14,CommonDolphin,channelA_2024-06-08_15-34-48_48kHz_187_194_0.53.WAV,-1,
+15,CommonDolphin,channelA_2024-06-09_01-29-45_48kHz_196_203_0.34.WAV,1,
+16,CommonDolphin,channelA_2024-06-09_04-14-32_48kHz_67_74_0.43.WAV,1,
+17,CommonDolphin,channelA_2024-06-09_09-20-25_48kHz_121_128_0.55.WAV,0,Human_diver
+18,CommonDolphin,channelA_2024-06-09_09-20-25_48kHz_136_143_0.74.WAV,0,Human_diver
+19,CommonDolphin,channelA_2024-06-09_09-20-25_48kHz_142_149_0.65.WAV,0,Human_diver
+20,CommonDolphin,channelA_2024-06-09_15-10-39_48kHz_253_260_0.41.WAV,0,Motor boat
+21,CommonDolphin,channelA_2024-06-09_15-10-39_48kHz_268_275_0.63.WAV,0,Motor boat
+22,CommonDolphin,channelA_2024-06-09_15-27-30_48kHz_259_266_0.33.WAV,-2,
+23,CommonDolphin,channelA_2024-06-09_15-27-30_48kHz_271_278_0.78.WAV,-100, 
