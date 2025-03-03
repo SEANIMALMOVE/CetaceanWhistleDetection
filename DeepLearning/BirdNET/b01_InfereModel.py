@@ -67,7 +67,8 @@ class AudioDataset:
 def load_model_keras():
     # model_path = "DeepLearning/BirdNET/Models/18_MarineMammals_NewBGManagement" 
     # model_path = "DeepLearning/BirdNET/Models/20_MarineMammalsDelphinidae"
-    model_path = "DeepLearning/BirdNET/Models/22_MarineMammalsDelphinidae_BetterCutsCIRCE"
+    # model_path = "DeepLearning/BirdNET/Models/22_MarineMammalsDelphinidae_BetterCutsCIRCE"
+    model_path = "DeepLearning/BirdNET/Models/23_MarineMammalsDelphinidae_WOPAMBG"
     # model_path = "DeepLearning/BirdNET/Models/14_MarineMammals"
     model = tf.keras.models.load_model(model_path)
     return model
