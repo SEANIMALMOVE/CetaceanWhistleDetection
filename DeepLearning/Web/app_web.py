@@ -9,7 +9,7 @@ import os
 from io import BytesIO
 import matplotlib.pyplot as plt
 import tensorflow as tf # type: ignore
-from marine_mammals_classes_mapping import CLASSES_MAPPING_REDUCED_REAL as classes_mapping
+from marine_mammals_classes_mapping import CLASSES_MAPPING_BINARY as classes_mapping
 
 # Define the available experiments
 EXPERIMENTS = [
@@ -19,11 +19,12 @@ EXPERIMENTS = [
     # "12_MarineMammals_AllDataset_ReduceDimNN"
     "16_MarineMammals_NewDSGenerator",
     "15_MarineMammals_NewDS",
-    "14_MarineMammals"
+    "27_MarineMammals",
+    "31_WhistleUpsampleHumanDiver"
 ]
 
 # Load the initial model
-EXPERIMENT = EXPERIMENTS[0]
+EXPERIMENT = EXPERIMENTS[2]
 model = tf.keras.models.load_model(f"DeepLearning/BirdNET/Models/{EXPERIMENT}/")
 
 

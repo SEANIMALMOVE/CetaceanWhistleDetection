@@ -39,6 +39,11 @@ CLASSES_MAPPING = {
     'StripedDolphin': 7
 }
 
+CLASSES_MAPPING = {
+    'Background': 0,
+    'Whistle': 1,
+}
+
 INV_CLASSES_MAPPING = {v: k for k, v in CLASSES_MAPPING.items()}
 
 class AudioDataset:
@@ -68,8 +73,9 @@ def load_model_keras():
     # model_path = "DeepLearning/BirdNET/Models/18_MarineMammals_NewBGManagement" 
     # model_path = "DeepLearning/BirdNET/Models/20_MarineMammalsDelphinidae"
     # model_path = "DeepLearning/BirdNET/Models/22_MarineMammalsDelphinidae_BetterCutsCIRCE"
-    model_path = "DeepLearning/BirdNET/Models/23_MarineMammalsDelphinidae_WOPAMBG"
+    # model_path = "DeepLearning/BirdNET/Models/23_MarineMammalsDelphinidae_WOPAMBG"
     # model_path = "DeepLearning/BirdNET/Models/14_MarineMammals"
+    model_path = "DeepLearning/BirdNET/Models/31_WhistleUpsampleHumanDiver"
     model = tf.keras.models.load_model(model_path)
     return model
 

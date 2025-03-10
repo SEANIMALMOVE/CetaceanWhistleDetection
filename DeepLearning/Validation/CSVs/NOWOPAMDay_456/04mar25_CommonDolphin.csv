@@ -1,0 +1,11 @@
+Idx,Specie,File,Validation,Suggested Specie
+1,CommonDolphin,channelA_2024-06-04_09-58-48_48kHz_280_287_0.52.WAV,0,Ferry_Fast ferry
+2,CommonDolphin,channelA_2024-06-04_10-03-48_48kHz_148_155_0.51.WAV,0,Ferry_Fast ferry
+3,CommonDolphin,channelA_2024-06-04_13-15-27_48kHz_103_110_0.45.WAV,0,Motor boat
+4,CommonDolphin,channelA_2024-06-04_13-25-27_48kHz_64_71_0.42.WAV,0,Motor boat
+5,CommonDolphin,channelA_2024-06-04_15-53-23_48kHz_292_299_0.28.WAV,-1,
+6,CommonDolphin,channelA_2024-06-06_20-53-25_48kHz_196_203_0.2.WAV,1,
+7,CommonDolphin,channelA_2024-06-06_22-37-40_48kHz_166_173_0.26.WAV,-1,
+8,CommonDolphin,channelA_2024-06-06_22-42-40_48kHz_0_5_0.27.WAV,-1,
+9,CommonDolphin,channelA_2024-06-06_22-57-40_48kHz_0_5_0.24.WAV,-1,
+10,CommonDolphin,channelA_2024-06-06_23-14-31_48kHz_187_194_0.22.WAV,-100, 

@@ -1,0 +1,101 @@
+Idx,Specie,File,Validation,Suggested Specie
+1,KillerWhale,channelA_2024-06-04_01-48-06_48kHz_61_68_0.57.WAV,-1,
+2,KillerWhale,channelA_2024-06-04_03-59-12_48kHz_37_44_0.57.WAV,-1,
+3,KillerWhale,channelA_2024-06-04_04-14-12_48kHz_43_50_0.51.WAV,0,WHAT?
+4,KillerWhale,channelA_2024-06-04_04-31-03_48kHz_127_134_0.53.WAV,-1,
+5,KillerWhale,channelA_2024-06-04_05-31-36_48kHz_40_47_0.64.WAV,0,Motor boat
+6,KillerWhale,channelA_2024-06-04_06-10-18_48kHz_292_299_0.55.WAV,-1,
+7,KillerWhale,channelA_2024-06-04_07-15-51_48kHz_289_296_0.56.WAV,-1,
+8,KillerWhale,channelA_2024-06-04_08-21-24_48kHz_193_200_0.56.WAV,0,Motor boat
+9,KillerWhale,channelA_2024-06-04_08-36-24_48kHz_175_182_0.78.WAV,0,Motor boat
+10,KillerWhale,channelA_2024-06-04_08-36-24_48kHz_190_197_0.55.WAV,0,Motor boat
+11,KillerWhale,channelA_2024-06-04_08-43-15_48kHz_244_251_0.58.WAV,0,Motor boat
+12,KillerWhale,channelA_2024-06-04_11-31-12_48kHz_166_173_0.92.WAV,0,Motor boat
+13,KillerWhale,channelA_2024-06-04_11-31-12_48kHz_181_188_0.99.WAV,0,Motor boat
+14,KillerWhale,channelA_2024-06-04_11-53-03_48kHz_196_203_0.62.WAV,-1,
+15,KillerWhale,channelA_2024-06-04_11-59-54_48kHz_22_29_0.6.WAV,0,Ferry_Fast ferry
+16,KillerWhale,channelA_2024-06-04_13-10-27_48kHz_100_107_0.58.WAV,0,Ferry_Fast ferry
+17,KillerWhale,channelA_2024-06-04_13-10-27_48kHz_109_116_0.61.WAV,0,Ferry_Fast ferry
+18,KillerWhale,channelA_2024-06-04_13-15-27_48kHz_34_41_0.53.WAV,0,Ferry_Fast ferry
+19,KillerWhale,channelA_2024-06-04_13-15-27_48kHz_61_68_0.68.WAV,0,Ferry_Fast ferry
+20,KillerWhale,channelA_2024-06-04_13-42-18_48kHz_193_200_0.63.WAV,0,Ferry_Fast ferry
+21,KillerWhale,channelA_2024-06-04_13-54-09_48kHz_163_170_0.73.WAV,0,Ferry_Fast ferry
+22,KillerWhale,channelA_2024-06-04_13-54-09_48kHz_217_224_0.53.WAV,0,Ferry_Fast ferry
+23,KillerWhale,channelA_2024-06-04_14-42-51_48kHz_211_218_0.47.WAV,0,WHAT?
+24,KillerWhale,channelA_2024-06-04_19-21-53_48kHz_220_227_0.47.WAV,-1,
+25,KillerWhale,channelA_2024-06-04_19-48-44_48kHz_130_137_0.53.WAV,-1,
+26,KillerWhale,channelA_2024-06-04_20-10-35_48kHz_253_260_0.6.WAV,-1,
+27,KillerWhale,channelA_2024-06-04_20-32-26_48kHz_40_47_0.54.WAV,-1,
+28,KillerWhale,channelA_2024-06-04_20-37-26_48kHz_106_113_0.54.WAV,-1,
+29,KillerWhale,channelA_2024-06-04_20-44-17_48kHz_181_188_0.47.WAV,-1,
+30,KillerWhale,channelA_2024-06-04_20-44-17_48kHz_67_74_0.51.WAV,-1,
+31,KillerWhale,channelA_2024-06-04_22-55-23_48kHz_130_137_0.59.WAV,-1,
+32,KillerWhale,channelA_2024-06-04_22-55-23_48kHz_283_290_0.56.WAV,-1,
+33,KillerWhale,channelA_2024-06-04_22-55-23_48kHz_97_104_0.71.WAV,-1,
+34,KillerWhale,channelA_2024-06-04_23-00-23_48kHz_19_26_0.52.WAV,-1,
+35,KillerWhale,channelA_2024-06-04_23-00-23_48kHz_226_233_0.61.WAV,-1,
+36,KillerWhale,channelA_2024-06-04_23-00-23_48kHz_280_287_0.48.WAV,-1,
+37,KillerWhale,channelA_2024-06-04_23-00-23_48kHz_34_41_0.46.WAV,-1,
+38,KillerWhale,channelA_2024-06-05_00-22-47_48kHz_10_17_0.54.WAV,-1,
+39,KillerWhale,channelA_2024-06-05_00-27-47_48kHz_175_182_0.57.WAV,-1,
+40,KillerWhale,channelA_2024-06-05_00-27-47_48kHz_208_215_0.54.WAV,-1,
+41,KillerWhale,channelA_2024-06-05_00-59-38_48kHz_199_206_0.65.WAV,-1,
+42,KillerWhale,channelA_2024-06-05_01-11-29_48kHz_55_62_0.5.WAV,-1,
+43,KillerWhale,channelA_2024-06-05_03-00-44_48kHz_280_287_0.47.WAV,2,Bird
+44,KillerWhale,channelA_2024-06-05_04-16-17_48kHz_172_179_0.48.WAV,-1,
+45,KillerWhale,channelA_2024-06-05_04-23-08_48kHz_268_275_0.67.WAV,-1,
+46,KillerWhale,channelA_2024-06-05_05-33-40_48kHz_100_107_0.7.WAV,0,Ferry_Fast ferry
+47,KillerWhale,channelA_2024-06-05_06-17-22_48kHz_37_44_0.47.WAV,0,Ferry_Fast ferry
+48,KillerWhale,channelA_2024-06-05_06-27-22_48kHz_253_260_0.47.WAV,-1,
+49,KillerWhale,channelA_2024-06-05_08-06-36_48kHz_247_254_0.5.WAV,-1,
+50,KillerWhale,channelA_2024-06-05_08-06-36_48kHz_79_86_0.81.WAV,-1,
+51,KillerWhale,channelA_2024-06-05_08-38-27_48kHz_214_221_0.56.WAV,0,Motor boat
+52,KillerWhale,channelA_2024-06-05_09-29-00_48kHz_208_215_0.48.WAV,0,Motor boat
+53,KillerWhale,channelA_2024-06-05_09-34-00_48kHz_115_122_0.52.WAV,0,Ferry_Fast ferry
+54,KillerWhale,channelA_2024-06-05_09-50-51_48kHz_19_26_0.68.WAV,-1,
+55,KillerWhale,channelA_2024-06-05_10-00-51_48kHz_274_281_0.62.WAV,0,WHAT?
+56,KillerWhale,channelA_2024-06-05_10-05-51_48kHz_217_224_0.81.WAV,0,WHAT?
+57,KillerWhale,channelA_2024-06-05_10-10-51_48kHz_97_104_0.53.WAV,-1,
+58,KillerWhale,channelA_2024-06-05_10-12-42_48kHz_178_185_0.83.WAV,0,WHAT?
+59,KillerWhale,channelA_2024-06-05_10-17-42_48kHz_283_290_0.52.WAV,-1,
+60,KillerWhale,channelA_2024-06-05_10-22-42_48kHz_286_293_0.57.WAV,0,Ferry_Fast ferry
+61,KillerWhale,channelA_2024-06-05_10-34-33_48kHz_241_248_0.5.WAV,-1,
+62,KillerWhale,channelA_2024-06-05_13-34-21_48kHz_172_179_0.75.WAV,0,Motor boat
+63,KillerWhale,channelA_2024-06-05_13-34-21_48kHz_178_185_0.54.WAV,0,Motor boat
+64,KillerWhale,channelA_2024-06-05_13-34-21_48kHz_193_200_0.56.WAV,0,Motor boat
+65,KillerWhale,channelA_2024-06-05_13-34-21_48kHz_205_212_0.47.WAV,0,Motor boat
+66,KillerWhale,channelA_2024-06-05_15-11-45_48kHz_145_152_0.8.WAV,0,Ferry_Fast ferry
+67,KillerWhale,channelA_2024-06-05_16-02-18_48kHz_268_275_0.72.WAV,0,Ferry_Fast ferry
+68,KillerWhale,channelA_2024-06-05_16-02-18_48kHz_280_287_0.61.WAV,0,Ferry_Fast ferry
+69,KillerWhale,channelA_2024-06-05_16-46-00_48kHz_235_242_0.49.WAV,-1,
+70,KillerWhale,channelA_2024-06-05_17-07-51_48kHz_211_218_0.49.WAV,0,Motor boat
+71,KillerWhale,channelA_2024-06-05_17-22-51_48kHz_253_260_0.68.WAV,0,Motor boat
+72,KillerWhale,channelA_2024-06-05_17-29-42_48kHz_49_56_0.51.WAV,-1,
+73,KillerWhale,channelA_2024-06-05_17-44-42_48kHz_121_128_0.63.WAV,0,Motor boat
+74,KillerWhale,channelA_2024-06-05_17-44-42_48kHz_124_131_0.65.WAV,0,Motor boat
+75,KillerWhale,channelA_2024-06-05_17-44-42_48kHz_130_137_0.67.WAV,0,Motor boat
+76,KillerWhale,channelA_2024-06-06_08-25-32_48kHz_154_161_0.57.WAV,-1,
+77,KillerWhale,channelA_2024-06-06_08-35-32_48kHz_121_128_0.55.WAV,0,Motor boat
+78,KillerWhale,channelA_2024-06-06_08-52-23_48kHz_58_65_0.78.WAV,0,Ferry_Fast ferry
+79,KillerWhale,channelA_2024-06-06_08-52-23_48kHz_70_77_0.57.WAV,0,Ferry_Fast ferry
+80,KillerWhale,channelA_2024-06-06_08-57-23_48kHz_175_182_0.5.WAV,-1,
+81,KillerWhale,channelA_2024-06-06_08-57-23_48kHz_49_56_0.55.WAV,0,Motor boat
+82,KillerWhale,channelA_2024-06-06_08-57-23_48kHz_58_65_0.51.WAV,0,Motor boat
+83,KillerWhale,channelA_2024-06-06_08-57-23_48kHz_67_74_0.71.WAV,0,Ferry_Fast ferry
+84,KillerWhale,channelA_2024-06-06_09-46-05_48kHz_73_80_0.51.WAV,-1,
+85,KillerWhale,channelA_2024-06-06_09-46-05_48kHz_7_14_0.64.WAV,-1,
+86,KillerWhale,channelA_2024-06-06_10-19-47_48kHz_253_260_0.47.WAV,0,Motor boat
+87,KillerWhale,channelA_2024-06-06_17-29-55_48kHz_97_104_0.47.WAV,0,Motor boat
+88,KillerWhale,channelA_2024-06-06_17-31-46_48kHz_70_77_0.52.WAV,0,Motor boat
+89,KillerWhale,channelA_2024-06-06_18-03-37_48kHz_19_26_0.71.WAV,0,Motor boat
+90,KillerWhale,channelA_2024-06-06_18-03-37_48kHz_22_29_0.53.WAV,0,Motor boat
+91,KillerWhale,channelA_2024-06-06_18-03-37_48kHz_25_32_0.64.WAV,0,Motor boat
+92,KillerWhale,channelA_2024-06-06_20-14-43_48kHz_148_155_0.64.WAV,-1,
+93,KillerWhale,channelA_2024-06-06_20-53-25_48kHz_205_212_0.52.WAV,2,Bird
+94,KillerWhale,channelA_2024-06-06_20-58-25_48kHz_121_128_0.57.WAV,2,Bird
+95,KillerWhale,channelA_2024-06-06_22-37-40_48kHz_91_98_0.52.WAV,-1,
+96,KillerWhale,channelA_2024-06-06_22-52-40_48kHz_46_53_0.54.WAV,-1,
+97,KillerWhale,channelA_2024-06-06_23-14-31_48kHz_7_14_0.81.WAV,-1,
+98,KillerWhale,channelA_2024-06-06_23-21-22_48kHz_253_260_0.49.WAV,-1,
+99,KillerWhale,channelA_2024-06-06_23-21-22_48kHz_4_11_0.56.WAV,-1,
+100,KillerWhale,channelA_2024-06-06_23-31-22_48kHz_67_74_0.67.WAV,-100, 
