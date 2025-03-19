@@ -1,0 +1,3 @@
+Path,Filename,StartSecond,EndSecond,MainClassification,ConfidenceScore,ConfidenceVector
+/home/gruncrow/Cetaceans/Dataset/Audios/SEANIMALMOVE/WOPAMDay/Human_diver_1_breath/channelA_2024-06-09_09-20-25_48kHz_129_132.WAV,channelA_2024-06-09_09-20-25_48kHz_129_132.WAV,0,3,Whistle,0.58327246,"[0.41672760248184204, 0.5832724571228027]"
+/home/gruncrow/Cetaceans/Dataset/Audios/SEANIMALMOVE/WOPAMDay/Human_diver_2_wee/channelA_2024-06-08_11-17-36_48kHz_240_243.WAV,channelA_2024-06-08_11-17-36_48kHz_240_243.WAV,0,3,Whistle,0.5638479,"[0.4361521005630493, 0.5638478994369507]"

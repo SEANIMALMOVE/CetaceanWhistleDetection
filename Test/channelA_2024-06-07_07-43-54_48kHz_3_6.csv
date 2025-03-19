@@ -1,0 +1,2 @@
+Path,Filename,StartSecond,EndSecond,MainClassification,ConfidenceScore,ConfidenceVector
+/home/gruncrow/Cetaceans/Dataset/Audios/SEANIMALMOVE/WOPAMDay/Ferry_FastFerry/channelA_2024-06-07_07-43-54_48kHz_3_6.WAV,channelA_2024-06-07_07-43-54_48kHz_3_6.WAV,0,3,Background,0.65908104,"[0.6590810418128967, 0.34091901779174805]"

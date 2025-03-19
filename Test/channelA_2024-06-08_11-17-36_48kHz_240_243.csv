@@ -1,0 +1,2 @@
+Path,Filename,StartSecond,EndSecond,MainClassification,ConfidenceScore,ConfidenceVector
+/home/gruncrow/Cetaceans/Dataset/Audios/SEANIMALMOVE/WOPAMDay/Human_diver_2_wee/channelA_2024-06-08_11-17-36_48kHz_240_243.WAV,channelA_2024-06-08_11-17-36_48kHz_240_243.WAV,0,3,Whistle,0.5638479,"[0.4361521005630493, 0.5638478994369507]"

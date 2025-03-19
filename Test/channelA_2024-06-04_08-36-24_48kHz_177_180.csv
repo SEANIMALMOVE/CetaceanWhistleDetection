@@ -1,0 +1,2 @@
+Path,Filename,StartSecond,EndSecond,MainClassification,ConfidenceScore,ConfidenceVector
+/home/gruncrow/Cetaceans/Dataset/Audios/SEANIMALMOVE/WOPAMDay/Motor_boat/channelA_2024-06-04_08-36-24_48kHz_177_180.WAV,channelA_2024-06-04_08-36-24_48kHz_177_180.WAV,0,3,Background,0.86698574,"[0.8669857382774353, 0.13301429152488708]"

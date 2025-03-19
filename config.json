@@ -1,0 +1,1 @@
+{"audio_path": "/home/gruncrow/Cetaceans/Dataset/Audios/SEANIMALMOVE/WOPAMDay", "output_folder": "/home/gruncrow/Cetaceans/Test", "model_folder": "/home/gruncrow/Cetaceans/DeepLearning/BirdNET/Models/31_WhistleUpsampleHumanDiver", "load_previous": false}
