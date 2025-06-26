@@ -1,2 +1,0 @@
-Path,Filename,StartSecond,EndSecond,MainClassification,ConfidenceScore,ConfidenceVector
-/home/gruncrow/Cetaceans/Dataset/Audios/SEANIMALMOVE/WOPAMDay/Human_diver_1_breath/channelA_2024-06-09_15-27-30_48kHz_276_279.WAV,channelA_2024-06-09_15-27-30_48kHz_276_279.WAV,0,3,Background,0.93870664,"[0.938706636428833, 0.06129339709877968]"

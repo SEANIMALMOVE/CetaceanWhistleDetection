@@ -1,0 +1,7 @@
+El archivo Sylence channelA_2025-03-26_21-06-31 necesito partirlo en bloques de 300,1920 segundos.
+Quedando:
+Corte 1: Inicio del archivo 2025-03-26 21:07:30.568 
+
+Corte 2: Inicio del archivo 2025-03-26 21:12:30.760
+
+Corte 3: Inicio del archivo 2025-03-26 21:17:30.952
